@@ -1,5 +1,5 @@
-# MultiOgar
-Ogar game server with vanilla physics and multi-protocol support.
+# MultiOgar | Agarlist.com
+Ogar game server with vanilla physics and multi-protocol support edited for Agarlist.com
 
 ## Project Info
 ![Language](https://img.shields.io/badge/language-node.js-yellow.svg)
@@ -13,39 +13,9 @@ Original Ogar found [here](https://github.com/OgarProject/Ogar)
 
 The goal is to cleanup the code, fix the bugs and improve physics.
 
-## Clients
-
-This lists Ogar clients and server trackers that I found on internet.
-
-###Ogar server trackers
-
-URL | Description
---- | ---
-http://ogar.mivabe.nl/master | MivaBe, tracks a lot of servers
-
-Now you can allow MultiOgar to be listed on a server tracker.
-Just set `serverTracker = 1` in the gameserver.ini, and your server will appear
-on this page: http://ogar.mivabe.nl/master
-If you don't want to include your server to tracker list, 
-just set `serverTracker = 0` and the server will not ping the server tracker.
-
 
 ###Ogar clients
-Just replace `127.0.0.1:50000` in the url to the server IP and port to play.
-
-URL | Protocol | Description
---- | --- | ---
-http://ogar.mivabe.nl/?ip=127.0.0.1:50000 | early 5 | MivaBe, pretty smooth, custom graphics (anime)
-http://play.ogarul.tk/?ip=127.0.0.1:50000 | 4 | OgarUL, vanilla style (sends invalid protocol=1)
-http://c0nsume.me/private4.php?ip=127.0.0.1:50000 | 5 | vanilla style
-
-###MultiOgar Servers
-
-IP | Location | Game Mode | Web Site
---- | --- | --- | ---
-vps.simonorj.com:24270 | USA | Instant Merge | https://redd.it/4mufge
-164.132.48.230:600 | France | FFA | http://c0nsume.me/private4.php?ip=164.132.48.230:600
-
+Check out Agarlist.com
 
 ## What's new:
 * Added scramble level 3 (anti-bot/anti-minimap protection), unsupported on some clients (unfortunately include vanilla, ogar.mivabe.nl works ok)
